@@ -4,7 +4,7 @@ var app = express();
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var port = 8080;
-var db = 'mongodb+srv://roshankumarsinghbhumca21:roshan123456@cluster0.llax1nf.mongodb.net/?retryWrites=true&w=majority';
+var db = MONGO_URI;
 
 var authbooks = require('./routes/rout');
 
